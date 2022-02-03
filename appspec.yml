@@ -1,9 +1,0 @@
-version: 0.0
-os: linux
-hooks:
-  BeforeInstall:
-    - location: scripts/start_application
-      timeout: 300
-  ApplicationStop:
-    - location: scripts/stop_application
-      timeout: 300
